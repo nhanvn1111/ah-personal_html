@@ -1,0 +1,43 @@
+@media only screen and (max-width: 1015px) {
+    #Skills .col-sm-3, #About .col-sm-4, #Steps .col-sm-3, #Activity .col-sm-4 {
+        margin-bottom: 30px;
+    }
+    #ContactUS .col-sm-4 {
+        margin-bottom: 30px;
+    }
+    #ContactUS form .col-md-12 {
+        margin-bottom: 30px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    #ContactUS .col-sm-4:last-child {
+        margin-bottom: 0;
+    }
+    #ContactUS form .row {
+        margin-top: 0;
+    }
+}
+@media only screen and (max-width: 917px) {
+    #About .row .aboutMe {
+        margin-top: 30px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    #About .row .aboutMe {
+        margin-top: 30px;
+    }
+    #About .row .flickrSlider {
+        margin-top: 30px;
+    }
+    .AH_Nav .navbar-collapse ul.navbar-nav {
+        height: auto;
+    }
+}
+@media only screen and (max-width: 497px) {
+    #ContactUS .col-sm-4 {
+        margin-bottom: 65px;
+    }
+    #ContactUS .col-sm-4:last-child {
+        margin-bottom: 30px;
+    }
+}
